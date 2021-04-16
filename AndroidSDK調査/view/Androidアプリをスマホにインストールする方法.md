@@ -16,3 +16,5 @@ https://became-free.com/xamarin-visual-studio-make-android-apk/
 2. USBで端末をpcに接続。sdkを用いてAPKをインストール
 以下の2ー1を参照
 https://qiita.com/kusokamayarou/items/9397cc15e8dfe4d7510a
+
+テスト
