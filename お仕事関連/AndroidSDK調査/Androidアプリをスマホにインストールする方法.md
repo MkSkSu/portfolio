@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 準備物
 Visual Studio
 Android SDK
