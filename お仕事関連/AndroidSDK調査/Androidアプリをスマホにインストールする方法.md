@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<head>
-<meta charset="utf-8"/>
-<title>我が家での爬虫類飼育における考察</title>
-</head>
-
 # Androidアプリをスマホにインストールする方法
 ## 準備物
 * Visual Studio
