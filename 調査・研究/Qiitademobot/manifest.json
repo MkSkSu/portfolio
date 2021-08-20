@@ -1,0 +1,82 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.9",
+    "version": "1.0.0",
+    "id": "{{id}}",
+    "packageName": "qiita.demo.bot.azure",
+    "developer": {
+        "name": "大和田企業",
+        "websiteUrl": "https://qiita.com/Taiga_san/items/1c68ec5f998a7a00a6a6",
+        "privacyUrl": "https://qiita.com/Taiga_san/items/1c68ec5f998a7a00a6a6",
+        "termsOfUseUrl": "https://qiita.com/Taiga_san/items/1c68ec5f998a7a00a6a6"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Qiita_demo_bot",
+        "full": "Qiita_demo_bot_Azure"
+    },
+    "description": {
+        "short": "Qiitaに掲載するために作成したbotです。",
+        "full": "参考URI:\nhttps://qiita.com/Taiga_san/items/1c68ec5f998a7a00a6a6\nhttps://qiita.com/chomado/items/6bda10abde0551f25723"
+    },
+    "accentColor": "#F1D1FE",
+    "configurableTabs": [
+        {
+            "configurationUrl": "https://google.com",
+            "canUpdateConfiguration": true,
+            "scopes": [
+                "team"
+            ],
+            "context": [
+                "channelTab"
+            ]
+        }
+    ],
+    "staticTabs": [
+        {
+            "entityId": "conversations",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "about",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "bots": [
+        {
+            "botId": "{{botId}}",
+            "scopes": [
+                "personal"
+            ],
+            "commandLists": [
+                {
+                    "scopes": [
+                        "personal"
+                    ],
+                    "commands": [
+                        {
+                            "title": "Help",
+                            "description": "このbotは、大和田が制作したQiitaでbotの作り方を紹介するためのbotです。"
+                        }
+                    ]
+                }
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "google.com"
+    ]
+}
